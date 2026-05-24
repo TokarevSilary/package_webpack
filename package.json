@@ -1,0 +1,20 @@
+{
+  "name": "wcl",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TokarevSilary/package_webpack#readme",
+  "bugs": {
+    "url": "https://github.com/TokarevSilary/package_webpack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokarevSilary/package_webpack.git"
+  },
+  "license": "ISC",
+  "author": "TokarevSilary",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
