@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/TokarevSilary/package_webpack#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/TokarevSilary/package_webpack/issues"
   },
@@ -12,9 +15,17 @@
   },
   "license": "ISC",
   "author": "TokarevSilary",
-  "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "babel-loader": "^10.1.1",
+    "webpack": "^5.107.1",
+    "webpack-cli": "^7.0.2"
   }
 }
